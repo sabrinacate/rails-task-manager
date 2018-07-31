@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Task.create(title: "Do the Groceries", details: "Jumbo", completed: true)
+Task.create(title: "Buy tickets", details: "Easyjet to London", completed: false)
+Task.create(title: "Call the Grandparents", details: "Before dinner time", completed: false)
+
